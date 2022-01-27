@@ -2,7 +2,7 @@ import { Box } from "@material-ui/core";
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import Header from "../header/Header";
-import { ancient_headings } from "../../../../assets/data/data.js";
+import { modern_headings } from "../../../../assets/data/data.js";
 import useStyles from "./styles";
 import {
   Card,
@@ -21,7 +21,7 @@ const Home = () => {
         <Navbar />
         <Box className={classes.container}>
           <Box className={classes.titles}>
-            {ancient_headings.map((item) => (
+            {modern_headings.map((item) => (
               <Headings heading_name={item} />
             ))}
           </Box>

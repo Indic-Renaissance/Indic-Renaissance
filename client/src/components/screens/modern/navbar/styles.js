@@ -9,11 +9,10 @@ export const useStyle = makeStyles({
     maxWidth: "301px",
     display: "flex",
     flexDirection: "column",
-    zIndex: "1110000",
+    zIndex: "11100",
   },
   navbar__lists: {
     marginTop: 64,
-    marginBottom: 64,
     backgroundColor: "#101F33",
     color: "white",
     width: "100%",

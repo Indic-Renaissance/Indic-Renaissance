@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core";
-const banner = "images/ram_mandir_banner.jpg";
+import { autocompleteClasses } from "@mui/material";
+// const banner = "images/ram_mandir_banner.jpg";
 const useStyles = makeStyles({
   component: {
     display: "flex",
